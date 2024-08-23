@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #FCFDFE;
+    font-family: "Rubik", sans-serif;
+}
+:root{
+    --border:#D8D8D8;
+}
+.divider{
+    border-bottom: solid 1px var(--border) ;
+    margin: 3rem 0;
+}
